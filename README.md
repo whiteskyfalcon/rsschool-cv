@@ -1,1 +1,1 @@
-https://whiteskyfalcon.github.io/rsschool-cv/cv
+https://whiteskyfalcon.github.io/rsschool-cv/
