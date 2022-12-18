@@ -1,0 +1,78 @@
+:root {
+  --backcol: rgb(245, 222, 179, 0.5);
+}
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.3em;
+  left: 0%;
+  top: 0%;
+  font: 400 ;
+  min-width: none;
+  min-height: 100%;  
+}
+.h2 {
+  background:var(--backcol);
+}
+.page {
+  margin: auto;
+  max-width: 1024px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  
+}
+.figure_container {
+  width: 384px;
+  overflow: hidden;
+  background:var(--backcol);
+}
+.mypic {
+  width: 100%;
+  border-radius: 30%;
+}
+.my_name {
+  width: 640px;
+  text-align: center;
+  vertical-align: middle;
+}
+.main_container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.mainleft {
+  width: 384px;
+  background:var(--backcol);
+}
+.mainright {
+  width: 640px;
+}
+.footer_container {
+    background:var(--backcol);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    line-height: 50px;
+    text-align: center;
+}
+.my_git {
+    vertical-align: center;
+}
+.my_git_img {
+  height: 50px;
+}
+.rss_img {
+  height: 50px;
+}
+ul {
+  list-style: none;
+}
+.pp {
+  position: relative;
+  left: 25px;
+  top: -15px;
+  font-style: italic;
+  font-size: 0.8em;
+}
